@@ -284,7 +284,7 @@ async def fetch_playwright(url: str, tienda: str = "") -> tuple[int | None, int 
     try:
         from playwright.async_api import async_playwright
     except ImportError:
-        return None, None, "playwright", "no instalado (pip install playwright)"
+        return None, None, "playwright", "sin playwright en nube", []
     try:
         async with async_playwright() as p:
             browser = await p.chromium.launch(headless=True)

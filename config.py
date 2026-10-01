@@ -7,6 +7,18 @@ PRECIO_OBJETIVO = 350000
 # --- Cada cuantos segundos revisar ---
 INTERVALO_SEGUNDOS = 60
 
+# --- Detección de cupones: exige la palabra + un precio $ cerca ---
+CUPON_KEYWORDS = [
+    "cupon",
+    "cupon de descuento",
+    "codigo de descuento",
+    "codigo promocional",
+    "con cupon",
+    "cupon cyber",
+    "descuento extra",
+]
+CUPON_EXCLUIR = ["juego", "devolucion", "gift card", "juguete", "boleta"]
+
 # --- Metas por modelo Switch (cada producto puede traer su "meta") ---
 META_SWITCH1 = 300000
 META_OLED = 350000
