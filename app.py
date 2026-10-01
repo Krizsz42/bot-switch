@@ -13,7 +13,7 @@ BOT_STATUS = {"started": datetime.now().isoformat(timespec="seconds"), "rondas":
 
 @app.get("/")
 def health():
-    return "Bot PS5 activo", 200
+    return "Bot Switch activo", 200
 
 
 @app.get("/status")
