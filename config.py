@@ -19,10 +19,10 @@ CUPON_KEYWORDS = [
 ]
 CUPON_EXCLUIR = ["juego", "devolucion", "gift card", "juguete", "boleta"]
 
-# --- Metas por modelo Switch (cada producto puede traer su "meta") ---
+# --- Meta única: 300.000 para todo ---
 META_SWITCH1 = 300000
-META_OLED = 350000
-META_SWITCH2 = 550000
+META_OLED = 300000
+META_SWITCH2 = 300000
 
 PRODUCTS = [
     # Paris Switch
